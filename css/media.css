@@ -1,0 +1,480 @@
+@media(max-width: 1400px){
+    .nav{
+        width: 1140px;
+    }
+    .underheader{
+        height: 650px;
+        padding-bottom: 15px;
+    }
+}
+
+@media(max-width: 1200px){
+    .nav{
+        width: 992px;
+    }
+    .block_phone{
+        margin-left: 0px;
+        text-align: center;
+    }
+    .block_tel{
+        font-size: 17px; 
+        text-align: center;
+    }
+    .title{
+        font-size: 40px;
+    }
+    .under_title{
+        font-size: 25px;
+    }
+    .underheader_text{
+        width: 800px;
+    }
+    .h3{
+        font-size: 28px;
+    }
+    .blocksx8{
+        margin-top: 60px;
+        
+    }
+    .blocks{
+        display: block;
+        text-align: center;
+        height: 300px;
+    }
+    .blocks>img{
+        float: none;
+        display: block;
+        margin: 0 auto;
+    }
+    .blocks_text{
+        text-align: center;
+    }
+    .block{
+        width: 280px;
+        height: 280px;
+    }
+    .car{
+        height: 800px;
+    }
+    .car_desc{
+        margin-top: 0px;
+    }
+    .part2nav1{
+        width: 254px;
+    }
+    .part2nav2{
+        width: 300px;
+    }
+    .part2nav1>div>a{
+        font-size: 12px;
+    }
+    .part2nav2>div>a{
+        font-size: 9px;
+    }
+    .part3>a>img{
+        width: 65px;
+    }
+    .part1{
+        width: 195px;
+    }
+}
+@media(max-width: 991px){
+    .lists_name{
+        font-size: 12px;
+    }
+    .nav{
+        width: 768px;
+        padding: 0 40px;
+    }
+    .block_logo{
+        width: 25px;
+    }
+    .logo_name{
+        font-size: 18px;
+    }
+    .logo_site{
+        font-size: 10px;
+    }
+    .block_tel{
+        font-size: 15px; 
+    }
+    .btn{
+        width: 200px;
+        height: 53px;
+        font-size: 14px;
+    }
+    .title{
+        font-size: 30px;
+        margin-top: 75px;
+    }
+    .under_title{
+        font-size: 20px;
+    }
+    .btn2{
+        margin-top: 50px;
+    }
+    .underheader_text{
+        width: 700px;
+    }
+    .underheader{
+        height: 600px;
+        padding-bottom: 15px;
+    }
+    .btn{
+        width: 132px;
+        height: 36px;
+        font-size: 10px;
+    }
+    .blocks{
+        width: 350px;
+    }
+    .block{
+        width: 200px;
+        height: 200px;
+    }
+    .block_title{
+        font-size: 15px;
+        margin-top: 65px;
+    }
+    .block_img{
+        margin-top: 35px;
+    }
+    .app{
+        min-height: 600px;
+    }
+    .car{
+        height: 680px;
+    }
+    .blue,.red{
+        font-size: 19px;
+    }
+    .center{
+       
+        font-size: 15px;
+        
+    }
+    .car_img{
+        width:600px ;
+    }
+    .bl1{
+        width: 338px;
+    }
+}
+
+@media(max-width: 767px){
+    .underheader{
+        height: 650px;
+    }
+    .header_list{
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        position:fixed;
+        top:0;
+        left:-100%;
+        width: 50%;
+        height: 100vh;
+        padding: 20px 10px;
+        background-color:rgba(0,0,0,0.8);
+        transition: 0.6s all;
+    }
+    .header_list:active{
+        left:0;
+    }
+    
+    .lists_name{
+        display: block;
+        margin-top: 20px;
+        font-size: 20px;
+    }
+    .logo_name{
+        font-size: 20px;
+    }
+    .underheader_text{
+        width: 455px;
+    }
+    .header>div{
+        display: block;
+    }
+    .tline{
+        transition: 0.5s;
+    }
+    .hamburger:active .tline{
+        margin-top: -3px;
+    }
+    .hamburger:active .tline:nth-child(1) {
+        transform: translateY(12px) rotate(-45deg);
+    }
+    .hamburger:active .tline:nth-child(2){
+        display: none;
+    }
+    .hamburger:active .tline:nth-child(3){
+        transform:translateY(12px) rotate(45deg);
+    }
+    .title{
+        font-size:20px;
+        margin-top: 100px;
+    }
+    .logo_site{
+        display: none;
+    }
+    .col-sm-1{
+        display:none;
+    }
+    .block_tel2{
+        display: block;
+        margin-top: 13px;
+        font-size: 15px;
+        color: rgb(255, 255, 255);
+        text-align: center;
+        
+    }
+    .btn{
+        margin-top: 5px;
+        margin-left: 13px;
+    }
+    .under_title{
+        margin-top: 5px;
+    }
+    .subheader{
+        top:50px;
+        position: absolute;
+        width: 100%;
+        height: 84px;
+        background-color: rgba(0, 0,0, 0.6);
+    }
+    .btn2{
+        margin-top: 40px;
+    }
+    .blocksx8{
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+    }
+    .blocks{
+        margin-top: 20px;
+        height: 300px;
+    }
+    .blocks_text{
+        margin-top: 25px;
+    }
+    .blockx6{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10px;
+    }
+    .block{
+        width: 320px;
+        height: 280px;
+    }
+    .block_title{
+        font-size: 25px;
+    }
+    .block_img{
+        margin-top: 95px;
+    }
+    .car_img{
+        width: 500px;
+    }
+    .app_fonts{
+        height: 600px ;
+    }
+    .car_desc{
+        font-size: 20px;
+        color: #fff;
+    }
+    .bl{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10px;
+    }
+    .bl_2{
+        height: 280px;
+        margin-top: 0px;
+    }
+    .bl_4{
+        height: 190px;
+    }
+    .world1{
+        height: 500px;
+    }
+    .world2{
+        height: 500px;
+    }
+    .app_title>a{
+        margin-top: 286px;
+    }
+    .parts{
+        height:200px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .part1{
+        justify-content: center;
+        order: 1;
+    }
+    .part3{
+        order:2;
+    }
+    .part2nav1>div{
+        margin-top:20px ;
+    }
+
+    @media(max-width: 575px){
+        .header{
+            width: 100%;
+        }
+        .underheader_text{
+            display: none;
+        }
+        .block_logo{
+            width: 16px;
+            
+        }
+        
+        .logo_name{
+            position: absolute;
+            font-size: 12px;
+            margin-left: 3px;
+            margin-top: 20px;
+        }
+        .block_tel2{
+            font-size: 12px;
+            margin-top: 9px;
+        }
+        .btn{
+            width: 110px;
+            height: 22px;
+            font-size: 10px;
+            margin-left: 0px;
+            margin-top: 6px;
+        }
+        .header{
+            height: 29px;
+            padding: 0px;
+        }
+        .col-6{
+            margin-left: 15px;
+        }
+        .row{
+            display: flex;
+            justify-content: space-between;
+        }
+        .col-5{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .subheader{
+            height: 60px;
+        }
+        .car_img{
+            width: 300px;
+        }
+        .link{
+            width: 250px;
+        }
+        .underheader_main{
+            
+            padding: 53px 27px 72px 27px;
+            margin: 0px;
+        }
+        .under_title{
+            font-size: 19px;
+            font-weight: 700;
+        }
+        .container{
+            padding: 0px ;
+            
+        }
+        .title{
+            font-size: 30px;
+        }
+        .btn2{
+            width: 210px;
+            height:52px;
+            font-size: 16px;
+        }
+        .causes{
+            padding-top: 22px;
+        }
+        .h3{
+            font-size: 16px;
+        }
+        .blocks{
+            width: 300px;
+        }
+        .blocks > div{
+            width: 300px;
+        }
+        .blocks_text{
+            width: 300px;
+            margin-top: 10px;
+            text-align: justify;
+            margin: 0px;
+        }
+        .h3_sub{
+            margin-top: 5px;
+        }
+        .block{
+            width: 290px;
+            margin-left: 14px;
+        }
+        .bl1{
+            width: 300px;
+            height: 420px;
+
+        }
+        .bl_4{
+            height: 180px;
+        }
+        .bl_2{
+            height: 280px;
+        }
+        .world2{
+            padding: 25px 0 30px 0;
+            height: 360px;
+        }
+        .app_fonts{
+            height:360px ;
+        }
+        .car{
+            height: 500px;
+        }
+        .world1{
+            height:400px ;
+        }
+        .app_title>a{
+            margin-top:240px ;
+        }
+        .part1{
+            width: 250px;
+            margin-top: 10px;
+        }
+        .part2{
+            width: 250px;
+        }
+        .part3{
+            width: 210px;
+            margin-top: 10px;
+        }
+        .border_under{
+            width: 250px;
+        }
+        .part2nav2{
+            width: 220px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: flex-around;
+        }
+        .part2nav2>div>a{
+            display: flex;
+            font-size: 11px;
+        }
+    }
+}
